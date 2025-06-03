@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora de idade</title>
+</head>
+<body>
+    <main>
+        <h1>Bem vindo à calculadora de idade!</h1>
+        <div class="container">
+            <label for="nome">Insira seu nome:</label>
+            <input type="text" id="nome" placeholder="Nome:"/>
+        </div>
+
+        <div class="container">
+            <label for="ano">Insira seu ano de nascimento (exemplo: 2006):</label>
+            <input type="number" id="ano" placeholder="Ano:"/>
+        </div>
+
+        <button onclick="enviar()" class="btn">
+            Enviar!
+        </button>
+
+        <p id="frase" class="frase"></p>
+    </main>
+</body>
+</html>
